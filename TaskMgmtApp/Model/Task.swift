@@ -16,11 +16,11 @@ struct Task: Identifiable {
 }
 
 var sampleTasks: [Task] = [
-    .init(taskTitle: "Record Video", creationDate: .init(), isCompleted: true, tintColor: .blue),
+    .init(taskTitle: "Record Video", creationDate: .init(), isCompleted: true, tintColor: .white),
     .init(taskTitle: "Redesign Website", creationDate: .init(), isCompleted: true, tintColor: .blue),
-    .init(taskTitle: "Go for a walk", creationDate: .init(), isCompleted: true, tintColor: .blue),
-    .init(taskTitle: "Edit Video", creationDate: .init(), isCompleted: true, tintColor: .blue),
-    .init(taskTitle: "Publish Video", creationDate: .init(), isCompleted: true, tintColor: .blue)
+    .init(taskTitle: "Go for a walk", creationDate: .init(), isCompleted: false, tintColor: .yellow),
+    .init(taskTitle: "Edit Video", creationDate: .init(), isCompleted: true, tintColor: .green),
+    .init(taskTitle: "Publish Video", creationDate: .init(), isCompleted: false, tintColor: .purple)
 ]
 
 extension Date {
